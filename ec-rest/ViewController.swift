@@ -14,7 +14,7 @@ class ViewController: UIViewController, SFSafariViewControllerDelegate {
     let CURRENCY_INR: String = "INR";
     let CURRENCY_USD: String = "USD";
     
-    let BASE_URL: String = "https://paypal-integration-sample.herokuapp.com";
+    let BASE_URL: String = "https://paypal-ec-server.herokuapp.com";
     let CREATE_URL: String = "/api/paypal/ec/create-payment/";
     let RETURN_URL: String = "/api/paypal/ec/success";
 
