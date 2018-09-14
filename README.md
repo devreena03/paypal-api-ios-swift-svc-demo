@@ -13,9 +13,9 @@ Sample code has build on, iOS 10.2 and xCode 8.3.2 and tested on xCode inbuilt s
 
 #### Node Server Source Code 
 
->https://github.com/devreena03/paypal-api-integration.git
+>https://github.com/devreena03/PayPal_EC_Server
 
->This source code is deployed in Heroku, https://paypal-integration-sample.herokuapp.com/
+>This source code is deployed in Heroku, https://paypal-ec-server.herokuapp.com/
 
 >If you like to use your own server please change the base_url in ec-rest/ViewController.swift
 
