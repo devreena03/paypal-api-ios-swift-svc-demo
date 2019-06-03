@@ -10,7 +10,3 @@
 
 >This source code is deployed in Heroku, https://paypal-ec-server.herokuapp.com/
 
-
-##### Screencast
-
-![ScreenShot](https://github.com/devreena03/PayPal_ECAPI_iOS_Swift_SVC_Demo/blob/master/screencast.gif)
