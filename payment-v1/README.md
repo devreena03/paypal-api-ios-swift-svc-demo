@@ -1,5 +1,5 @@
-# paypal ec api ios+swift+svc demo
-PayPal express checkout API integration sample code in iOS and swift with Safari view controller
+# PayPal ec payment-v1 api ios+swift+sfvc demo
+PayPal express checkout(Payment v1) API integration sample code in iOS and swift with Safari view controller
 
 Assumption:
 Sample code has build on, iOS 10.2 and xCode 8.3.2 and tested on xCode inbuilt simulators.
