@@ -13,7 +13,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
+        
+        print(url.host!);
+        let urlComponents = NSURLComponents.init(url: url, resolvingAgainstBaseURL: false)
+        let items = (urlComponents?.queryItems)! as [NSURLQueryItem]
+        print(items);
+        
+        if url.host == "success" {
+            let viewController = getViewControllerInstance();
+            viewController.success(token: (items.first?.value)!)
+            return true
+        }
+        if url.host == "cancel" {
+            let viewController = getViewControllerInstance();
+            viewController.cancel(token: (items.first?.value)!)
+            return true
+        }
+        if url.host == "error" {
+            let viewController = getViewControllerInstance();
+            viewController.error(token: (items.first?.value)!)
+            return true
+        }
+        return false;
+        
+    }
+    
+    
+    func getViewControllerInstance() -> ViewController {
+        let mainStoryboardIpad : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController : ViewController = mainStoryboardIpad.instantiateViewController(withIdentifier: "mainView") as! ViewController
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = viewController
+        self.window?.makeKeyAndVisible()
+        return viewController;
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
