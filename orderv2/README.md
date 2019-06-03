@@ -1,8 +1,8 @@
-# PayPal Order V2 api ios+swift+sfvc demo
-PayPal Order V2 API integration sample code in iOS and swift with Safari view controller
+# paypal ec api ios+swift+svc demo
+PayPal express checkout API integration sample code in iOS and swift with Safari view controller
 
 Assumption:
-Sample code has build on, iOS 12.0 and xCode 10.1 and tested on xCode inbuilt simulators.
+Sample code has build on, iOS 10.2 and xCode 8.3.2 and tested on xCode inbuilt simulators.
 
 >Clone the iOS app repository to your local machine 
 
@@ -17,7 +17,7 @@ Sample code has build on, iOS 12.0 and xCode 10.1 and tested on xCode inbuilt si
 
 >This source code is deployed in Heroku, https://paypal-ec-server.herokuapp.com/
 
->If you like to use your own server please change the base_url in orderv2/ViewController.swift
+>If you like to use your own server please change the base_url in ec-rest/ViewController.swift
 
 
 ##### Screencast
