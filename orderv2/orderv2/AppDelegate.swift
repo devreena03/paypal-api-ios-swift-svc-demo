@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func getViewControllerInstance() -> ViewController {
         let mainStoryboardIpad : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController : ViewController = mainStoryboardIpad.instantiateViewController(withIdentifier: "mainView") as! ViewController
+        let viewController : ViewController = mainStoryboardIpad.instantiateViewController(withIdentifier: "mainView1") as! ViewController
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = viewController
