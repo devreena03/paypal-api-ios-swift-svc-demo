@@ -22,4 +22,4 @@ Sample code has build on, iOS 12.0 and xCode 10.1 and tested on xCode inbuilt si
 
 ##### Screencast
 
-![ScreenShot](https://github.com/devreena03/PayPal_ECAPI_iOS_Swift_SVC_Demo/blob/master/screencast.gif)
+![ScreenShot](https://github.com/devreena03/paypal-api-ios-swift-sfvc-demo/blob/master/orderv2/screencast-orderv2.gif)
