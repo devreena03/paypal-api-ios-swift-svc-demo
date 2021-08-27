@@ -1,4 +1,4 @@
-# PayPal api integration sample code in iOS with swift and SFVC
+# PayPal api integration sample code for iOS app with swift and SVC
 
 >payment-v1 - code sample of express checkout payment-v1 api integration
 
@@ -10,3 +10,6 @@
 
 >This source code is deployed in Heroku, https://paypal-ec-server.herokuapp.com/
 
+##### Screencast
+
+![ScreenShot](https://github.com/devreena03/paypal-api-ios-swift-sfvc-demo/blob/master/orderv2/screencast-orderv2.gif)
