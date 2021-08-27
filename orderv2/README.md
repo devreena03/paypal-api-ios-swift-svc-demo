@@ -1,4 +1,4 @@
-# PayPal Order V2 api ios+swift+sfvc demo
+# iOS app PayPal Order V2 api integration
 PayPal Order V2 API integration sample code in iOS and swift with Safari view controller
 
 Assumption:
